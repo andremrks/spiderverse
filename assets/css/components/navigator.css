@@ -46,4 +46,5 @@
     width: 2.5rem;
     position: absolute;
     top: -20px;
+    filter: drop-shadow(2px 2px 2px #252525);
 }
