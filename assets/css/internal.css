@@ -102,3 +102,13 @@
     background-image: url('../images/spiderman-andrew/movie-02/background.jpg');
     background-size: cover;
 }
+
+.s-spiderman-04-01 {
+    background-image: url('../images/miles-morales/movie-01/background.jpg');
+    background-size: cover;
+}
+
+.s-spiderman-04-02 {
+    background-image: url('../images/miles-morales/movie-02/background.jpg');
+    background-size: cover;
+}
