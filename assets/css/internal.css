@@ -32,8 +32,8 @@
 }
 
 .s-wrapper .s-main-content .s-logo img {
-    margin: 3rem 0 1.8rem;
-    width: 50rem;
+    margin: 3rem 0 1rem;
+    width: 35%;
 }
 
 .s-wrapper .s-main-content__top {
@@ -75,5 +75,30 @@
 
 .s-spiderman-01-03 {
     background-image: url('../images/spiderman-tobey/movie-03/background.png');
+    background-size: cover;
+}
+
+.s-spiderman-02-01 {
+    background-image: url('../images/spiderman-tom/movie-01/background.png');
+    background-size: cover;
+}
+
+.s-spiderman-02-02 {
+    background-image: url('../images/spiderman-tom/movie-02/background.png');
+    background-size: cover;
+}
+
+.s-spiderman-02-03 {
+    background-image: url('../images/spiderman-tom/movie-03/background.png');
+    background-size: cover;
+}
+
+.s-spiderman-03-01 {
+    background-image: url('../images/spiderman-andrew/movie-01/background.png');
+    background-size: cover;
+}
+
+.s-spiderman-03-02 {
+    background-image: url('../images/spiderman-andrew/movie-02/background.jpg');
     background-size: cover;
 }
