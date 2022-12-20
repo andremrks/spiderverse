@@ -1,0 +1,49 @@
+.navigator {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.navigator ul li {
+    margin: 60px 0;
+}
+
+.navigator ul li a {
+    color: #fff;
+    border: .1rem solid #fff;
+    background-color: #252525;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: all .4s ease-in-out;
+}
+
+.navigator ul li a:hover, .navigator ul li a.active{
+    color: var(--primary-color);
+    background-color: #fff;
+    scale: 1.1;
+}
+
+.navigator::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: .1rem;
+    height: 100%;
+    background-color: #fff;
+}
+
+.navigator .navigator__icon {
+    width: 2.5rem;
+    position: absolute;
+    top: -20px;
+}

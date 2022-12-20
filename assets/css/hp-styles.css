@@ -1,5 +1,5 @@
-@import url('./assets/css/global.css');
-@import url('./assets/css/reset.css');
+@import url('/assets/css/global.css');
+@import url('/assets/css/reset.css');
 
 body {
     background-color: var(--primary-color);
@@ -7,7 +7,7 @@ body {
 
 body::before {
     content: '';
-    background-image: url('/assets/images/spider-man-background.jpg');
+    background-image: url('/assets/images/spider-man-background2.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -29,13 +29,23 @@ body::before {
     display: inline-block;
     text-transform: uppercase;
     margin: 0 1.25rem;
+    transition: text-shadow .3s ease-in-out;
 }
+
+.s-menu__item:hover {
+    text-shadow: 2px 2px 3px #252525;
+} 
 
 .s-menu__icon {
     width: 2.5rem;
     margin: 0 1.25rem;
     vertical-align: middle;
+    transition: scale 1s ease-in-out;
 }
+
+.s-menu__icon:hover {
+    scale: 1.2;
+} 
 
 .s-container {
     position: relative;
@@ -102,10 +112,11 @@ body::before {
     font-weight: 700;
     cursor: pointer;
     z-index: 1; /* Used to not be coverd by "s.controller__line" */
-    transition: scale .3s ease-in-out;
+    transition: scale .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
 .s-controller__button:hover {
+    box-shadow: 1px 1px 3px #252525;
     scale: 1.1;
 }
 

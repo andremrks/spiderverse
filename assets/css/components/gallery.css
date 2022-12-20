@@ -1,0 +1,26 @@
+.gallery {
+    padding: 20px;
+    padding-left: 0;
+}
+
+.gallery ul {
+    display: flex;
+}
+
+.gallery ul li {
+    margin-left: 1.6rem;
+}
+
+.gallery ul li:first-child {
+    margin-left: 0;
+}
+
+.gallery ul li a img {
+    border: .35rem solid rgba(255, 255, 255, .6);
+    border-radius: 1rem;
+    transition: scale .5s ease-in-out;
+}
+
+.gallery ul li a img:hover {
+    scale: 1.02;
+}
