@@ -163,6 +163,22 @@ body::before {
     position: absolute;
 }
 
+#mute i {
+    font-size: 1.2rem;
+    cursor: pointer;
+    position: fixed;
+    bottom: 1rem;
+    left: 1rem;
+}
+
+#unmute i {
+    font-size: 1.2rem;
+    cursor: pointer;
+    position: fixed;
+    bottom: 1rem;
+    left: 1rem;
+}
+
 /* Hover Animation */
 
 .s-card--hovered .s-card__background {

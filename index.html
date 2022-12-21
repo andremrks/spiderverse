@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/hp-styles.css">
+    <script src="https://kit.fontawesome.com/daa204c057.js" crossorigin="anonymous"></script>
     <title>Spider-Man | Multiverse</title>
 </head>
 <body>
@@ -70,6 +71,14 @@
             04
         </div>
         <div class="s-controller__line"></div>
+    </div>
+
+    <div class="s-player">
+        <audio id="player" autoplay loop src="./assets/audios/theme.mp3"></audio>
+        <button id="play"></button>
+        <button id="pause"></button>
+        <button id="mute" onclick="playerControl()"><i class="fa-solid fa-volume-high"></i></button>
+        <button id="unmute" onclick="playerControl()" style="display: none;"><i class="fa-solid fa-volume-xmark"></i></button>        
     </div>
 
     <script src="./assets/scripts/card-animation.js"></script>

@@ -35,3 +35,25 @@ function selectCarouselItem(selectedBtnElement) {
     selectedBtnElement.classList.add('s-controller__button--active')
     
 }
+
+
+// Function to control homepage audio
+
+function playerControl () {
+    const player = document.getElementById('player')
+    const mute = document.getElementById('mute')
+    const unmute = document.getElementById('unmute')
+
+    mute.addEventListener('click', function () {
+        player.muted = true
+        mute.style.display = 'none'
+        unmute.style.display = 'block'
+    });
+
+    unmute.addEventListener('click', function () {
+        player.muted = false
+        unmute.style.display = 'none'
+        mute.style.display = 'block'
+    });
+
+}
