@@ -169,9 +169,11 @@ body::before {
     position: fixed;
     bottom: 1rem;
     left: 1rem;
+    color: rgba(255, 255, 255, .8);
 }
 
 #unmute i {
+    color: rgba(255, 255, 255, .8);
     font-size: 1.2rem;
     cursor: pointer;
     position: fixed;
