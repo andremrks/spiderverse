@@ -57,3 +57,12 @@ function playerControl () {
     });
 
 }
+
+/* Function to Menu Mobile */
+
+function toggleMenu() {
+    let menuToggle = document.querySelector('.toggle');
+    let nav = document.querySelector('.nav');
+    menuToggle.classList.toggle('active');
+    nav.classList.toggle('active');
+}

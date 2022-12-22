@@ -1,0 +1,83 @@
+@media only screen and (max-width: 768px) {
+
+    .s-menu ul {
+        display: none;
+    }
+
+    .toggle {
+        position: absolute;
+        right: 0;
+        background: url(../icons/spider.svg);
+        background-size: 2.5rem;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+        margin-bottom: 2rem;
+        width: 4rem;
+        height: 4rem;
+        z-index: 11;
+    }
+
+    .toggle.active {
+        background: url(../icons/spider.svg);
+        background-size: 2.5rem;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .nav.active .s-menu__icon {
+        display: none;
+    }
+
+    .nav.active {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 10;
+        background: rgba(185, 0, 31, .9);
+    }
+
+    .nav.active li {
+        margin: 2rem 1rem;
+    }
+
+    .nav.active li a{
+        text-shadow: 1.5px 1.5px 3px #252525;
+        color: #fff;
+        font-size: 2rem;
+    }
+
+    .s-container {
+    margin-top: 5rem;
+    }
+
+    .s-container .s-cards-carousel {
+        width: 70vw;  
+    }
+
+    .s-container .s-cards-carousel .s-card__title {
+        font-size: 1.5rem;
+    }
+
+    .s-controller .s-controller__button {
+        width: 2rem;
+        height: 2rem;
+        font-size: .8rem;
+    }
+
+    .s-controller .s-controller__line {
+        width: 80vw;
+    }
+
+    .s-player #mute i, .s-player #unmute i {
+        font-size: 1rem;
+        bottom: .5rem;
+        left: .5rem;
+    }
+}

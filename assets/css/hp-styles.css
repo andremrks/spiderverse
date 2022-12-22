@@ -1,5 +1,6 @@
 @import url('./global.css');
 @import url('./reset.css');
+@import url('./media-query.css');
 
 body {
     background-color: var(--primary-color);
@@ -16,6 +17,10 @@ body::before {
     position: absolute;
     opacity: .2;
     transition: background-image 1s ease-in-out, opacity 1s ease-in-out;
+}
+
+.menuToggle {
+    display: none;
 }
 
 .s-menu {
@@ -52,7 +57,7 @@ body::before {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    perspective: 200rem;
+    perspective: 110rem;
 }
 
 .s-cards-carousel {
@@ -163,22 +168,13 @@ body::before {
     position: absolute;
 }
 
-#mute i {
+#mute i, #unmute i {
     font-size: 1.2rem;
     cursor: pointer;
     position: fixed;
     bottom: 1rem;
     left: 1rem;
     color: rgba(255, 255, 255, .8);
-}
-
-#unmute i {
-    color: rgba(255, 255, 255, .8);
-    font-size: 1.2rem;
-    cursor: pointer;
-    position: fixed;
-    bottom: 1rem;
-    left: 1rem;
 }
 
 /* Hover Animation */
