@@ -24,3 +24,23 @@
 .gallery ul li a img:hover {
     scale: 1.02;
 }
+
+@media only screen and (max-width: 768px) {
+
+    .gallery {
+        padding: 0;
+    }
+
+    .gallery ul {
+        flex-direction: column;
+    }
+
+    .gallery ul li:nth-child(2), .gallery ul li:nth-child(3) {
+        margin-left: 0;
+    }
+
+    .gallery ul li a img {
+        width: 70%;
+    }
+
+}

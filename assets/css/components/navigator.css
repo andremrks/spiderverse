@@ -48,3 +48,30 @@
     top: -20px;
     filter: drop-shadow(2px 2px 2px #252525);
 }
+
+@media only screen and (max-width: 768px) {
+
+    .navigator {
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        position: relative;
+    }
+
+    .navigator ul li {
+        margin: 40px 0;
+    }
+    
+    .navigator ul li a {
+        width: 2rem;
+        height: 2rem;
+        font-size: .8rem;
+    }
+
+    .navigator .navigator__icon {
+        width: 2rem;
+    }
+
+}

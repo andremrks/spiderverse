@@ -42,3 +42,15 @@
     font-weight: 600;
     margin-left: .625rem;
 }
+
+@media only screen and (max-width: 768px) {
+
+    .link-button {
+        margin-top: 1rem;
+        width: 10rem;
+    }
+
+    .link-button .label {
+        font-size: .8rem;
+    }
+}

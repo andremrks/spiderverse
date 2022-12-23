@@ -19,3 +19,14 @@
 .pills ul li:first-child {
     margin-left: 0;
 }
+
+@media only screen and (max-width: 768px) {
+
+    .pills {
+        margin-bottom: 1rem;
+    }
+
+    .pills ul li {
+        font-size: .7rem;
+    }
+}
